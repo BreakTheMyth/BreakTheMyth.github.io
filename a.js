@@ -1,6 +1,6 @@
 var start =  document.getElementById("start");
 
-start.onclick = function() {
+start.ontouchcancel = function() {
     if(document.getElementById("ka") != null) {
         document.getElementById("ka").remove();
     }
