@@ -16,7 +16,7 @@ start.onclick = function() {
     ka.style.left = "50%";
     ka.style.top = "20%";
     ka.style.transform = "translateX(-50%)", "translateY(-50%)";
-    ka.style.opacity = "50%";
+    ka.style.opacity = "90%";
     ka.id = "ka";
     document.body.appendChild(ka);
 }
